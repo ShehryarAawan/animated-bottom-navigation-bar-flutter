@@ -22,10 +22,12 @@ class TabItem extends StatelessWidget {
   Widget build(BuildContext context) => child ?? _buildDefaultTab();
 
   Widget _buildDefaultTab() {
-    return ImageIcon(
-      iconData!.image,
-      color: isActive ? activeColor : inactiveColor,
-      size: iconSize,
+    return Center(
+      child: ImageIcon(
+        iconData!.image,
+        color: isActive ? activeColor : inactiveColor,
+        size: iconSize,
+      ),
     );
   }
 }
