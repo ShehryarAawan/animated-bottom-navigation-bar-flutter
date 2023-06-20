@@ -12,7 +12,7 @@ class TabItem extends StatelessWidget {
     Key? key,
     required this.isActive,
     this.iconData,
-    this.iconSize = 24,
+    this.iconSize = 17,
     this.activeColor = Colors.deepPurpleAccent,
     this.inactiveColor = Colors.black,
     this.child,
